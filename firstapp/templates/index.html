@@ -1,0 +1,17 @@
+{% extends "main_base.html" %}
+{% load static %}
+
+{% block title %}
+  <title>WELCOME TO INDEX</title>
+{% endblock %}
+
+{% block extra_css %}
+  <link rel="stylesheet" href="{% static 'css/index.css' %}">
+{% endblock %}
+
+{% block content %}
+  <div class="col-sm-10 dashboard-content">
+    <h1>THIS IS MY DASHBOARD</h1>
+    <h3>HELLO TO MY INDEX</h3>
+  </div>
+{% endblock %}

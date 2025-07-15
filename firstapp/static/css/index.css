@@ -1,0 +1,11 @@
+dashboard-content {
+  overflow:scroll;
+}
+
+.dashboard-content h1 {
+  margin-left:20px;
+}
+
+.dashboard-content h3 {
+  margin-left:30px;
+}
